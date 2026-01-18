@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

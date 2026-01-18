@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/ping_pong.dir/link.d CMakeFiles/ping_pong.dir/testing/ping_pong.cpp.o -o testing/ping_pong  -Wl,-rpath,/home/emilis/notes/kursinis/benchmark/build/_deps/caf-build:/home/emilis/notes/kursinis/benchmark/build/_deps/caf-build/libcaf_core ../libcaf_test.so.0.19.6 ../libcaf_core/libcaf_core.so.0.19.6

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/iota.dir/link.d CMakeFiles/iota.dir/flow/iota.cpp.o -o flow/iota  -Wl,-rpath,/home/emilis/notes/kursinis/benchmark/build/_deps/caf-build/libcaf_core ../libcaf_core/libcaf_core.so.0.19.6

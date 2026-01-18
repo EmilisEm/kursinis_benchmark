@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-subbuild/CMakeFiles/caf-populate"
+		},
+		{
+			"file" : "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-subbuild/CMakeFiles/caf-populate.rule"
+		},
+		{
+			"file" : "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-subbuild/CMakeFiles/caf-populate-complete.rule"
+		},
+		{
+			"file" : "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-subbuild/caf-populate-prefix/src/caf-populate-stamp/caf-populate-build.rule"
+		},
+		{
+			"file" : "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-subbuild/caf-populate-prefix/src/caf-populate-stamp/caf-populate-configure.rule"
+		},
+		{
+			"file" : "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-subbuild/caf-populate-prefix/src/caf-populate-stamp/caf-populate-download.rule"
+		},
+		{
+			"file" : "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-subbuild/caf-populate-prefix/src/caf-populate-stamp/caf-populate-install.rule"
+		},
+		{
+			"file" : "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-subbuild/caf-populate-prefix/src/caf-populate-stamp/caf-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-subbuild/caf-populate-prefix/src/caf-populate-stamp/caf-populate-patch.rule"
+		},
+		{
+			"file" : "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-subbuild/caf-populate-prefix/src/caf-populate-stamp/caf-populate-test.rule"
+		},
+		{
+			"file" : "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-subbuild/caf-populate-prefix/src/caf-populate-stamp/caf-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"caf-populate"
+		],
+		"name" : "caf-populate"
+	}
+}

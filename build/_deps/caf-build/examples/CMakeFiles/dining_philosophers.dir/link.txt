@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/dining_philosophers.dir/link.d CMakeFiles/dining_philosophers.dir/dynamic_behavior/dining_philosophers.cpp.o -o dynamic_behavior/dining_philosophers  -Wl,-rpath,/home/emilis/notes/kursinis/benchmark/build/_deps/caf-build/libcaf_core ../libcaf_core/libcaf_core.so.0.19.6

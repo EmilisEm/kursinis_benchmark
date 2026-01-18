@@ -1,0 +1,2895 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+      - "/bin/"
+    searched_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/uname"
+      - "/opt/apache-maven-3.9.9/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.18.5-arch1-1 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/gmake"
+      - "/opt/apache-maven-3.9.9/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/usr/lib/jvm/default/bin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/gmake"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/gmake"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/make"
+      - "/opt/apache-maven-3.9.9/bin/make"
+      - "/usr/local/sbin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/c++"
+      - "/opt/apache-maven-3.9.9/bin/c++"
+      - "/usr/local/sbin/c++"
+      - "/usr/local/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/dlltool"
+      - "/opt/apache-maven-3.9.9/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/lib/jvm/default/bin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/dlltool"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/tapi"
+      - "/opt/apache-maven-3.9.9/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/lib/jvm/default/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/tapi"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-15.2"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/gcc-ar-15.2"
+      - "/opt/apache-maven-3.9.9/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/usr/lib/jvm/default/bin/gcc-ar-15.2"
+      - "/usr/bin/site_perl/gcc-ar-15.2"
+      - "/usr/bin/vendor_perl/gcc-ar-15.2"
+      - "/usr/bin/core_perl/gcc-ar-15.2"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/gcc-ar-15.2"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/gcc-ar-15"
+      - "/opt/apache-maven-3.9.9/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
+      - "/usr/local/bin/gcc-ar-15"
+      - "/usr/lib/jvm/default/bin/gcc-ar-15"
+      - "/usr/bin/site_perl/gcc-ar-15"
+      - "/usr/bin/vendor_perl/gcc-ar-15"
+      - "/usr/bin/core_perl/gcc-ar-15"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/gcc-ar-15"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/gcc-ar-15"
+      - "/usr/bin/gcc-ar15"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/gcc-ar15"
+      - "/opt/apache-maven-3.9.9/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
+      - "/usr/local/bin/gcc-ar15"
+      - "/usr/lib/jvm/default/bin/gcc-ar15"
+      - "/usr/bin/site_perl/gcc-ar15"
+      - "/usr/bin/vendor_perl/gcc-ar15"
+      - "/usr/bin/core_perl/gcc-ar15"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/gcc-ar15"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/gcc-ar15"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/gcc-ranlib-15.2"
+      - "/opt/apache-maven-3.9.9/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib-15.2"
+      - "/usr/bin/site_perl/gcc-ranlib-15.2"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
+      - "/usr/bin/core_perl/gcc-ranlib-15.2"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/gcc-ranlib-15.2"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/gcc-ranlib-15"
+      - "/opt/apache-maven-3.9.9/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
+      - "/usr/local/bin/gcc-ranlib-15"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib-15"
+      - "/usr/bin/site_perl/gcc-ranlib-15"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15"
+      - "/usr/bin/core_perl/gcc-ranlib-15"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/gcc-ranlib-15"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib15"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/gcc-ranlib15"
+      - "/opt/apache-maven-3.9.9/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
+      - "/usr/local/bin/gcc-ranlib15"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib15"
+      - "/usr/bin/site_perl/gcc-ranlib15"
+      - "/usr/bin/vendor_perl/gcc-ranlib15"
+      - "/usr/bin/core_perl/gcc-ranlib15"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/gcc-ranlib15"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/gcc-ranlib15"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ibq13w"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ibq13w"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ibq13w'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a37b3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a37b3.dir/build.make CMakeFiles/cmTC_a37b3.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ibq13w'
+        Building CXX object CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20260103 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a37b3.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a37b3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccKudJLH.s
+        GNU C++17 (GCC) version 15.2.1 20260103 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 15.2.1 20260103, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 26247f000d0c5f9b837c76e00a033f94
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a37b3.dir/'
+         as -v --64 -o CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccKudJLH.s
+        GNU assembler version 2.45.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.1
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_a37b3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a37b3.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20260103 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a37b3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a37b3.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrHRGIN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a37b3 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        collect2 version 15.2.1 20260103
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrHRGIN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a37b3 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.45.1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a37b3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a37b3.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a37b3
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ibq13w'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1] ==> [/usr/include/c++/15.2.1]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/15.2.1/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward] ==> [/usr/include/c++/15.2.1/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/15.2.1;/usr/include/c++/15.2.1/x86_64-pc-linux-gnu;/usr/include/c++/15.2.1/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ibq13w']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a37b3/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_a37b3.dir/build.make CMakeFiles/cmTC_a37b3.dir/build]
+        ignore line: [make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ibq13w']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20260103 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a37b3.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a37b3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccKudJLH.s]
+        ignore line: [GNU C++17 (GCC) version 15.2.1 20260103 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.1 20260103  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 26247f000d0c5f9b837c76e00a033f94]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a37b3.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccKudJLH.s]
+        ignore line: [GNU assembler version 2.45.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.1]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_a37b3]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a37b3.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20260103 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a37b3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a37b3.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrHRGIN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a37b3 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccrHRGIN.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a37b3] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [collect2 version 15.2.1 20260103]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrHRGIN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a37b3 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_a37b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.45.1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGit.cmake:111 (find_program)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:1884 (find_package)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:1619 (__FetchContent_populateSubbuild)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:2155:EVAL:2 (__FetchContent_doPopulation)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:2155 (cmake_language)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:2394 (__FetchContent_Populate)"
+      - "CMakeLists.txt:16 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/git"
+      - "/opt/apache-maven-3.9.9/bin/git"
+      - "/usr/local/sbin/git"
+      - "/usr/local/bin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:295 (find_package)"
+      - "build/_deps/caf-src/CMakeLists.txt:86 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/pkg-config"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/pkgconf"
+      - "/opt/apache-maven-3.9.9/bin/pkg-config"
+      - "/opt/apache-maven-3.9.9/bin/pkgconf"
+      - "/usr/local/sbin/pkg-config"
+      - "/usr/local/sbin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:297 (pkg_check_modules)"
+      - "build/_deps/caf-src/CMakeLists.txt:86 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib__OPENSSL_ssl"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ssl"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libssl.so"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:297 (pkg_check_modules)"
+      - "build/_deps/caf-src/CMakeLists.txt:86 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib__OPENSSL_crypto"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "crypto"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libcrypto.so"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:370 (find_path)"
+      - "build/_deps/caf-src/CMakeLists.txt:86 (find_package)"
+    mode: "path"
+    variable: "OPENSSL_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openssl/ssl.h"
+    candidate_directories:
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/include/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/include/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/include/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/include/"
+      - "/usr/local/bin/"
+      - "/usr/bin/include/"
+      - "/usr/bin/"
+      - "/usr/lib/jvm/default/bin/include/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/include/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/include/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/include/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/include/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/include/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+      - "/usr/local/include/include/"
+      - "/usr/local/include/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/include/"
+      - "/include/"
+      - "/usr/X11R6/include/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/include/"
+      - "/opt/include/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/include/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/usr/include/include/openssl/ssl.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:628 (find_library)"
+      - "build/_deps/caf-src/CMakeLists.txt:86 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_SSL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ssl"
+      - "ssleay32"
+      - "ssleay32MD"
+    candidate_directories:
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/lib/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/lib64/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/lib/"
+      - "/opt/apache-maven-3.9.9/bin/lib64/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/"
+      - "/usr/lib/jvm/default/bin/lib/"
+      - "/usr/lib/jvm/default/bin/lib64/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/lib/"
+      - "/usr/bin/site_perl/lib64/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/lib/"
+      - "/usr/bin/vendor_perl/lib64/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/lib/"
+      - "/usr/bin/core_perl/lib64/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/lib/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/lib64/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/lib/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/lib64/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib/lib/"
+      - "/lib/lib64/"
+      - "/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib64/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/lib64/"
+    found: "/usr/lib/libssl.so"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:642 (find_library)"
+      - "build/_deps/caf-src/CMakeLists.txt:86 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_CRYPTO_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "crypto"
+    candidate_directories:
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/lib/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/lib64/"
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/lib/"
+      - "/opt/apache-maven-3.9.9/bin/lib64/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/"
+      - "/usr/lib/jvm/default/bin/lib/"
+      - "/usr/lib/jvm/default/bin/lib64/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/lib/"
+      - "/usr/bin/site_perl/lib64/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/lib/"
+      - "/usr/bin/vendor_perl/lib64/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/lib/"
+      - "/usr/bin/core_perl/lib64/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/lib/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/lib64/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/lib/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/lib64/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib/lib/"
+      - "/lib/lib64/"
+      - "/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib64/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+    found: "/usr/lib/libcrypto.so"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceRuns.cmake:97 (cmake_check_source_runs)"
+      - "build/_deps/caf-src/CMakeLists.txt:141 (check_cxx_source_runs)"
+    checks:
+      - "Performing Test snippet_output"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-rVDNeK"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-rVDNeK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-src/cmake"
+    buildResult:
+      variable: "snippet_output_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-rVDNeK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1c19e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1c19e.dir/build.make CMakeFiles/cmTC_1c19e.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-rVDNeK'
+        Building CXX object CMakeFiles/cmTC_1c19e.dir/src.cxx.o
+        /usr/bin/c++ -Dsnippet_output  -std=c++20 -o CMakeFiles/cmTC_1c19e.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-rVDNeK/src.cxx
+        Linking CXX executable cmTC_1c19e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c19e.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_1c19e.dir/src.cxx.o -o cmTC_1c19e
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-rVDNeK'
+        
+      exitCode: 0
+    runResult:
+      variable: "snippet_output_EXITCODE"
+      cached: true
+      stdout: |
+        ok
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/caf-src/libcaf_core/CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Z9f5EW"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Z9f5EW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-src/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Z9f5EW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d2615/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d2615.dir/build.make CMakeFiles/cmTC_d2615.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Z9f5EW'
+        Building CXX object CMakeFiles/cmTC_d2615.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++20 -o CMakeFiles/cmTC_d2615.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Z9f5EW/src.cxx
+        Linking CXX executable cmTC_d2615
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2615.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_d2615.dir/src.cxx.o -o cmTC_d2615
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Z9f5EW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "build/_deps/caf-src/libcaf_core/CMakeLists.txt:19 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test has_64bit_atomic"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-X8devK"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-X8devK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-src/cmake"
+    buildResult:
+      variable: "has_64bit_atomic"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-X8devK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e2a8c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e2a8c.dir/build.make CMakeFiles/cmTC_e2a8c.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-X8devK'
+        Building CXX object CMakeFiles/cmTC_e2a8c.dir/src.cxx.o
+        /usr/bin/c++ -Dhas_64bit_atomic  -std=c++20 -o CMakeFiles/cmTC_e2a8c.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-X8devK/src.cxx
+        Linking CXX executable cmTC_e2a8c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2a8c.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e2a8c.dir/src.cxx.o -o cmTC_e2a8c
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-X8devK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCompilerFlag.cmake:124 (cmake_check_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:515 (check_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:693 (_test_compiler_hidden_visibility)"
+      - "build/_deps/caf-src/CMakeLists.txt:217 (generate_export_header)"
+      - "build/_deps/caf-src/CMakeLists.txt:356 (caf_export_and_install_lib)"
+      - "build/_deps/caf-src/libcaf_core/CMakeLists.txt:47 (caf_add_component)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Dm9WWc"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Dm9WWc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-src/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Dm9WWc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_769e6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_769e6.dir/build.make CMakeFiles/cmTC_769e6.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Dm9WWc'
+        Building CXX object CMakeFiles/cmTC_769e6.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -std=c++20   -fvisibility=hidden -o CMakeFiles/cmTC_769e6.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Dm9WWc/src.cxx
+        Linking CXX executable cmTC_769e6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_769e6.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_769e6.dir/src.cxx.o -o cmTC_769e6
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Dm9WWc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCompilerFlag.cmake:124 (cmake_check_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:516 (check_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:693 (_test_compiler_hidden_visibility)"
+      - "build/_deps/caf-src/CMakeLists.txt:217 (generate_export_header)"
+      - "build/_deps/caf-src/CMakeLists.txt:356 (caf_export_and_install_lib)"
+      - "build/_deps/caf-src/libcaf_core/CMakeLists.txt:47 (caf_add_component)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-2HcDte"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-2HcDte"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-src/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-2HcDte'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ad1b1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ad1b1.dir/build.make CMakeFiles/cmTC_ad1b1.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-2HcDte'
+        Building CXX object CMakeFiles/cmTC_ad1b1.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -std=c++20   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_ad1b1.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-2HcDte/src.cxx
+        Linking CXX executable cmTC_ad1b1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad1b1.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_ad1b1.dir/src.cxx.o -o cmTC_ad1b1
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-2HcDte'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSourceCompiles.cmake:205 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:481 (check_source_compiles)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:540 (_check_cxx_compiler_attribute)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:694 (_test_compiler_has_deprecated)"
+      - "build/_deps/caf-src/CMakeLists.txt:217 (generate_export_header)"
+      - "build/_deps/caf-src/CMakeLists.txt:356 (caf_export_and_install_lib)"
+      - "build/_deps/caf-src/libcaf_core/CMakeLists.txt:47 (caf_add_component)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Y1jCQc"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Y1jCQc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/caf-src/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Y1jCQc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1da15/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1da15.dir/build.make CMakeFiles/cmTC_1da15.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Y1jCQc'
+        Building CXX object CMakeFiles/cmTC_1da15.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -std=c++20 -o CMakeFiles/cmTC_1da15.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Y1jCQc/src.cxx
+        /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Y1jCQc/src.cxx: In function ‘int main()’:
+        /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Y1jCQc/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+            2 |     int main() { return somefunc();}
+              |                         ~~~~~~~~^~
+        /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Y1jCQc/src.cxx:1:37: note: declared here
+            1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+              |                                     ^~~~~~~~
+        Linking CXX executable cmTC_1da15
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1da15.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_1da15.dir/src.cxx.o -o cmTC_1da15
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Y1jCQc'
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/CMakeLists.txt:89 (find_program)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:99 (should_enable_assembly_tests)"
+    mode: "program"
+    variable: "LLVM_FILECHECK_EXE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "FileCheck"
+    candidate_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/"
+      - "/opt/apache-maven-3.9.9/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/emilis/intellj/idea-IU-243.23654.189/bin/"
+      - "/home/emilis/.local/share/JetBrains/Toolbox/scripts/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/emilis/notes/kursinis/benchmark/$PATH/FileCheck"
+      - "/opt/apache-maven-3.9.9/bin/FileCheck"
+      - "/usr/local/sbin/FileCheck"
+      - "/usr/local/bin/FileCheck"
+    found: "/usr/bin/FileCheck"
+    search_context:
+      ENV{PATH}:
+        - "$PATH"
+        - "/opt/apache-maven-3.9.9/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/emilis/intellj/idea-IU-243.23654.189/bin"
+        - "/home/emilis/.local/share/JetBrains/Toolbox/scripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:134 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-QMl4se"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-QMl4se"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-QMl4se'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f5296/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f5296.dir/build.make CMakeFiles/cmTC_f5296.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-QMl4se'
+        Building CXX object CMakeFiles/cmTC_f5296.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shm_open -std=c++20 -o CMakeFiles/cmTC_f5296.dir/CheckFunctionExists.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-QMl4se/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_f5296
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5296.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_f5296.dir/CheckFunctionExists.cxx.o -o cmTC_f5296  -lrt
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-QMl4se'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:174 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_STD_CXX11"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-me87hO"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-me87hO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_STD_CXX11"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-me87hO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9bb1e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9bb1e.dir/build.make CMakeFiles/cmTC_9bb1e.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-me87hO'
+        Building CXX object CMakeFiles/cmTC_9bb1e.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11 -std=c++20   -std=c++11 -o CMakeFiles/cmTC_9bb1e.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-me87hO/src.cxx
+        Linking CXX executable cmTC_9bb1e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bb1e.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11 CMakeFiles/cmTC_9bb1e.dir/src.cxx.o -o cmTC_9bb1e
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-me87hO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:180 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lPFYDu"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lPFYDu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lPFYDu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5b620/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5b620.dir/build.make CMakeFiles/cmTC_5b620.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lPFYDu'
+        Building CXX object CMakeFiles/cmTC_5b620.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -std=c++11  -Wall -std=c++20   -Wall -o CMakeFiles/cmTC_5b620.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lPFYDu/src.cxx
+        Linking CXX executable cmTC_5b620
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b620.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall CMakeFiles/cmTC_5b620.dir/src.cxx.o -o cmTC_5b620
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lPFYDu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:181 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-5HRSyO"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-5HRSyO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-5HRSyO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4b1e8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4b1e8.dir/build.make CMakeFiles/cmTC_4b1e8.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-5HRSyO'
+        Building CXX object CMakeFiles/cmTC_4b1e8.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -std=c++11  -Wall  -Wextra -std=c++20   -Wextra -o CMakeFiles/cmTC_4b1e8.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-5HRSyO/src.cxx
+        Linking CXX executable cmTC_4b1e8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b1e8.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra CMakeFiles/cmTC_4b1e8.dir/src.cxx.o -o cmTC_4b1e8
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-5HRSyO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:182 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-HmV4Wg"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-HmV4Wg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-HmV4Wg'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6e93/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b6e93.dir/build.make CMakeFiles/cmTC_b6e93.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-HmV4Wg'
+        Building CXX object CMakeFiles/cmTC_b6e93.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -std=c++11  -Wall  -Wextra  -Wshadow -std=c++20   -Wshadow -o CMakeFiles/cmTC_b6e93.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-HmV4Wg/src.cxx
+        Linking CXX executable cmTC_b6e93
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e93.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_b6e93.dir/src.cxx.o -o cmTC_b6e93
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-HmV4Wg'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:183 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-fqKNEY"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-fqKNEY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-fqKNEY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_41008/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_41008.dir/build.make CMakeFiles/cmTC_41008.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-fqKNEY'
+        Building CXX object CMakeFiles/cmTC_41008.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++20   -Wfloat-equal -o CMakeFiles/cmTC_41008.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-fqKNEY/src.cxx
+        Linking CXX executable cmTC_41008
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41008.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_41008.dir/src.cxx.o -o cmTC_41008
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-fqKNEY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:185 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Qk3643"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Qk3643"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Qk3643'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_120ea/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_120ea.dir/build.make CMakeFiles/cmTC_120ea.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Qk3643'
+        Building CXX object CMakeFiles/cmTC_120ea.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -std=c++20   -Werror -o CMakeFiles/cmTC_120ea.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Qk3643/src.cxx
+        Linking CXX executable cmTC_120ea
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_120ea.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror CMakeFiles/cmTC_120ea.dir/src.cxx.o -o cmTC_120ea
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Qk3643'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:191 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lSzNch"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lSzNch"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lSzNch'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_19a89/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_19a89.dir/build.make CMakeFiles/cmTC_19a89.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lSzNch'
+        Building CXX object CMakeFiles/cmTC_19a89.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override -std=c++20   -Wsuggest-override -o CMakeFiles/cmTC_19a89.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lSzNch/src.cxx
+        Linking CXX executable cmTC_19a89
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19a89.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override CMakeFiles/cmTC_19a89.dir/src.cxx.o -o cmTC_19a89
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-lSzNch'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:193 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-dAqiRQ"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-dAqiRQ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-dAqiRQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9dda4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9dda4.dir/build.make CMakeFiles/cmTC_9dda4.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-dAqiRQ'
+        Building CXX object CMakeFiles/cmTC_9dda4.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic -std=c++20   -pedantic -o CMakeFiles/cmTC_9dda4.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-dAqiRQ/src.cxx
+        Linking CXX executable cmTC_9dda4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dda4.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic CMakeFiles/cmTC_9dda4.dir/src.cxx.o -o cmTC_9dda4
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-dAqiRQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:194 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LyAepw"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LyAepw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LyAepw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8a9d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e8a9d.dir/build.make CMakeFiles/cmTC_e8a9d.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LyAepw'
+        Building CXX object CMakeFiles/cmTC_e8a9d.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors -std=c++20   -pedantic-errors -o CMakeFiles/cmTC_e8a9d.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LyAepw/src.cxx
+        Linking CXX executable cmTC_e8a9d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8a9d.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_e8a9d.dir/src.cxx.o -o cmTC_e8a9d
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LyAepw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:195 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LBVDUV"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LBVDUV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LBVDUV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25bfd/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_25bfd.dir/build.make CMakeFiles/cmTC_25bfd.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LBVDUV'
+        Building CXX object CMakeFiles/cmTC_25bfd.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++20   -Wshorten-64-to-32 -o CMakeFiles/cmTC_25bfd.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LBVDUV/src.cxx
+        c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+        c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+        make[1]: *** [CMakeFiles/cmTC_25bfd.dir/build.make:81: CMakeFiles/cmTC_25bfd.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-LBVDUV'
+        make: *** [Makefile:134: cmTC_25bfd/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:196 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ddLcTx"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ddLcTx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ddLcTx'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_12afe/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_12afe.dir/build.make CMakeFiles/cmTC_12afe.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ddLcTx'
+        Building CXX object CMakeFiles/cmTC_12afe.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++20   -fstrict-aliasing -o CMakeFiles/cmTC_12afe.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ddLcTx/src.cxx
+        Linking CXX executable cmTC_12afe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12afe.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_12afe.dir/src.cxx.o -o cmTC_12afe
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-ddLcTx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:199 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-pcoBZ9"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-pcoBZ9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-pcoBZ9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_10fe1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_10fe1.dir/build.make CMakeFiles/cmTC_10fe1.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-pcoBZ9'
+        Building CXX object CMakeFiles/cmTC_10fe1.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++20   -Wno-deprecated-declarations -o CMakeFiles/cmTC_10fe1.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-pcoBZ9/src.cxx
+        Linking CXX executable cmTC_10fe1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10fe1.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_10fe1.dir/src.cxx.o -o cmTC_10fe1
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-pcoBZ9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:208 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-TfnPSC"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-TfnPSC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-TfnPSC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6e05/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c6e05.dir/build.make CMakeFiles/cmTC_c6e05.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-TfnPSC'
+        Building CXX object CMakeFiles/cmTC_c6e05.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++20   -Wno-deprecated -o CMakeFiles/cmTC_c6e05.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-TfnPSC/src.cxx
+        Linking CXX executable cmTC_c6e05
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6e05.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_c6e05.dir/src.cxx.o -o cmTC_c6e05
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-TfnPSC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:218 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-9YppZb"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-9YppZb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-9YppZb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3719d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3719d.dir/build.make CMakeFiles/cmTC_3719d.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-9YppZb'
+        Building CXX object CMakeFiles/cmTC_3719d.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -std=c++20   -Wstrict-aliasing -o CMakeFiles/cmTC_3719d.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-9YppZb/src.cxx
+        Linking CXX executable cmTC_3719d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3719d.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing CMakeFiles/cmTC_3719d.dir/src.cxx.o -o cmTC_3719d
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-9YppZb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:223 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-MNjOsj"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-MNjOsj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-MNjOsj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_87c93/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_87c93.dir/build.make CMakeFiles/cmTC_87c93.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-MNjOsj'
+        Building CXX object CMakeFiles/cmTC_87c93.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654 -std=c++20   -wd654 -o CMakeFiles/cmTC_87c93.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-MNjOsj/src.cxx
+        c++: error: unrecognized command-line option '-wd654'
+        c++: error: unrecognized command-line option '-wd654'
+        make[1]: *** [CMakeFiles/cmTC_87c93.dir/build.make:81: CMakeFiles/cmTC_87c93.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-MNjOsj'
+        make: *** [Makefile:134: cmTC_87c93/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:224 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-yWG3HI"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-yWG3HI"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-yWG3HI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fccfb/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_fccfb.dir/build.make CMakeFiles/cmTC_fccfb.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-yWG3HI'
+        Building CXX object CMakeFiles/cmTC_fccfb.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety -std=c++20   -Wthread-safety -o CMakeFiles/cmTC_fccfb.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-yWG3HI/src.cxx
+        c++: error: unrecognized command-line option '-Wthread-safety'
+        c++: error: unrecognized command-line option '-Wthread-safety'
+        make[1]: *** [CMakeFiles/cmTC_fccfb.dir/build.make:81: CMakeFiles/cmTC_fccfb.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-yWG3HI'
+        make: *** [Makefile:134: cmTC_fccfb/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:275 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Aij8Ch"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Aij8Ch"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Aij8Ch'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8b9c1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8b9c1.dir/build.make CMakeFiles/cmTC_8b9c1.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Aij8Ch'
+        Building CXX object CMakeFiles/cmTC_8b9c1.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage -std=c++20   --coverage -o CMakeFiles/cmTC_8b9c1.dir/src.cxx.o -c /home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Aij8Ch/src.cxx
+        Linking CXX executable cmTC_8b9c1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b9c1.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_8b9c1.dir/src.cxx.o -o cmTC_8b9c1
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeScratch/TryCompile-Aij8Ch'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:52 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:304 (cxx_feature_check)"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_569bf/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_569bf.dir/build.make CMakeFiles/cmTC_569bf.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_569bf.dir/std_regex.cpp.o
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -o CMakeFiles/cmTC_569bf.dir/std_regex.cpp.o -c /home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/std_regex.cpp
+        Linking CXX executable cmTC_569bf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_569bf.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  CMakeFiles/cmTC_569bf.dir/std_regex.cpp.o -o cmTC_569bf
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:52 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:305 (cxx_feature_check)"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f4bbc/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f4bbc.dir/build.make CMakeFiles/cmTC_f4bbc.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_f4bbc.dir/gnu_posix_regex.cpp.o
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -o CMakeFiles/cmTC_f4bbc.dir/gnu_posix_regex.cpp.o -c /home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/gnu_posix_regex.cpp
+        /home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/gnu_posix_regex.cpp:1:10: fatal error: gnuregex.h: No such file or directory
+            1 | #include <gnuregex.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        make[1]: *** [CMakeFiles/cmTC_f4bbc.dir/build.make:81: CMakeFiles/cmTC_f4bbc.dir/gnu_posix_regex.cpp.o] Error 1
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:134: cmTC_f4bbc/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:52 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:306 (cxx_feature_check)"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7a358/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7a358.dir/build.make CMakeFiles/cmTC_7a358.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_7a358.dir/posix_regex.cpp.o
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -o CMakeFiles/cmTC_7a358.dir/posix_regex.cpp.o -c /home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_7a358
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a358.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  CMakeFiles/cmTC_7a358.dir/posix_regex.cpp.o -o cmTC_7a358
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:52 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:315 (cxx_feature_check)"
+    directories:
+      source: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp"
+      binary: "/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/Modules;/home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ef4ec/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ef4ec.dir/build.make CMakeFiles/cmTC_ef4ec.dir/build
+        make[1]: Entering directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_ef4ec.dir/steady_clock.cpp.o
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -o CMakeFiles/cmTC_ef4ec.dir/steady_clock.cpp.o -c /home/emilis/notes/kursinis/benchmark/build/_deps/benchmark-src/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_ef4ec
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef4ec.dir/link.txt --verbose=1
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  CMakeFiles/cmTC_ef4ec.dir/steady_clock.cpp.o -o cmTC_ef4ec
+        make[1]: Leaving directory '/home/emilis/notes/kursinis/benchmark/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+...

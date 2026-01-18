@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/promises.dir/link.d CMakeFiles/promises.dir/message_passing/promises.cpp.o -o message_passing/promises  -Wl,-rpath,/home/emilis/notes/kursinis/benchmark/build/_deps/caf-build/libcaf_core ../libcaf_core/libcaf_core.so.0.19.6
