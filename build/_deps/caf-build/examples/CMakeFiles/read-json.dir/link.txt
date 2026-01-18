@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/read-json.dir/link.d "CMakeFiles/read-json.dir/config/read-json.cpp.o" -o config/read-json  -Wl,-rpath,/home/emilis/notes/kursinis/benchmark/build/_deps/caf-build/libcaf_core ../libcaf_core/libcaf_core.so.0.19.6

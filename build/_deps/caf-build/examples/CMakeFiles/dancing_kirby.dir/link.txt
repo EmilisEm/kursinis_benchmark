@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/dancing_kirby.dir/link.d CMakeFiles/dancing_kirby.dir/message_passing/dancing_kirby.cpp.o -o message_passing/dancing_kirby  -Wl,-rpath,/home/emilis/notes/kursinis/benchmark/build/_deps/caf-build/libcaf_core ../libcaf_core/libcaf_core.so.0.19.6
